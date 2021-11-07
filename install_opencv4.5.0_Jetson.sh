@@ -54,8 +54,8 @@ cmake -GNinja                                                             \
     -DWITH_LIBV4L=ON                                                      \
     -DBUILD_opencv_python2=ON                                             \
     -DBUILD_opencv_python3=ON                                             \
-    -DWITH_PROTOBUF=1                                                     \
-    -DBUILD_PROTOBUF=0                                                    \
+    -DWITH_PROTOBUF=0                                                     \
+    -DBUILD_PROTOBUF=1                                                    \
     -DPROTOBUF_UPDATE_FILES=1                                             \
     -DBUILD_TIFF=ON                                                       \
     -DBUILD_TESTS=OFF                                                     \

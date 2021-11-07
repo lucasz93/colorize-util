@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install ninja-build
+
 #
 # Install miniconda.
 #
